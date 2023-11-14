@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Text,View,StyleSheet,StatusBar,FlatList,Dimensions} from 'react-native';
 import {COLORS, SPACING} from '../theme/theme';
-import {PlaylistCoverImage,SearchforItem} from '../api/apicalls';
+import {GetPlaylistCoverImage,SearchforItem,GetTrack} from '../api/apicalls';
 import InputHeader from '../components/InputHeader';
 import SongCard from '../components/SongCard';
 
@@ -46,7 +46,7 @@ const SearchScreen = ({navigation}: any) => {
               }}
               cardWidth={width / 2 - SPACING.space_12 * 2}
               title={item.original_title}
-              imagePath={PlaylistCoverImage('w342', item.poster_path)}
+              imagePath={GetPlaylistCoverImage('w342', item.poster_path)}
             />
           )}
         />
