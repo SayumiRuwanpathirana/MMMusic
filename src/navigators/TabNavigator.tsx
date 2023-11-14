@@ -82,7 +82,7 @@ const TabNavigator = () => {
                             />
                         </View>
                     )
-                },
+                },       
              }}  />
             <Tab.Screen name="Profile" component={ProfileScreen}options={{
                 tabBarShowLabel:false,
