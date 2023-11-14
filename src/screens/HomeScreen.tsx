@@ -15,7 +15,7 @@ const HomeScreen = ({navigation}:any) => {
       
     </View>
   );
-};
+}; 
 
 
 
