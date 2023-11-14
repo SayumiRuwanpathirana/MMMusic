@@ -49,8 +49,6 @@ const ProfileScreen = ({ navigation }: any) => {
 
 };
 
-
-
 const styles = StyleSheet.create({
   container: {
     display: 'flex',
