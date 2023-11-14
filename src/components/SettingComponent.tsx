@@ -6,7 +6,7 @@ import CustomIcon from './CustomIcon';
 const SettingComponent = (props: any) => {
   return (
     <View style={styles.container}>
-      <View>
+      <View>  
         <CustomIcon name={props.icon} style={styles.iconStyle} />
       </View>
       <View style={styles.settingContainer}>

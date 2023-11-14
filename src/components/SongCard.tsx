@@ -30,7 +30,7 @@ const SongCard = (props: any) => {
         />
         <Text numberOfLines={1} style={styles.textTitle}>
           {props.title}
-        </Text>
+        </Text>   
       </View>
     </TouchableOpacity>
   );

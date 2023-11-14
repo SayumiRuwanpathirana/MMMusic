@@ -20,7 +20,7 @@ const InputHeader = (props: any) => {
   return (
     <View style={styles.inputBox}>
       <TextInput
-        style={styles.textInput}
+        style={styles.textInput}   
         onChangeText={textInput => setSearchText(textInput)}
         value={searchText}
         placeholder="Search your Songs..."
